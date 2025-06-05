@@ -1,0 +1,160 @@
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "User Registration"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Profile Update"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Password Reset"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Account Recovery"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "User Authentication"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Email Verification"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Two-Factor Authentication Setup"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "User Profile Viewing"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Contact Information Update"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Address Book Management"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "User Account Deletion"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Data Export Functionality"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "User Preferences Configuration"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Subscription Management"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Notification Settings Update"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Social Media Account Linking"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "User Feedback Submission"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Customer Support Request"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Transaction History Viewing"}
+{"attributes": ["Name", "Address", "Phone Number", "Date of Birth", "User Name"], "task": "Privacy Settings Adjustment"}
+{"attributes": ["UserName", "Password", "Email"], "task": "User Registration"}
+{"attributes": ["UserName", "Password", "Email"], "task": "User Login"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Password Reset"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Email Verification"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Two-Factor Authentication Setup"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Account Recovery"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Profile Update"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Change Password"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Delete Account"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Social Media Login Integration"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Multi-Device Login Management"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Session Management"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Security Question Setup"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Email Notification Preferences"}
+{"attributes": ["UserName", "Password", "Email"], "task": "User Activity Logging"}
+{"attributes": ["UserName", "Password", "Email"], "task": "API Key Generation"}
+{"attributes": ["UserName", "Password", "Email"], "task": "OAuth Token Exchange"}
+{"attributes": ["UserName", "Password", "Email"], "task": "User Consent Management"}
+{"attributes": ["UserName", "Password", "Email"], "task": "Biometric Authentication Setup"}
+{"attributes": ["UserName", "Password", "Email"], "task": "User Data Export"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "User registration and account creation"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Patient record creation"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Appointment scheduling"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Prescription management"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Medical billing and invoicing"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Insurance claim processing"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Lab test result entry"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Patient data import/export"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Electronic health record (EHR) access logging"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Patient portal access"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Medical history documentation"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Emergency contact information entry"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Patient consent form management"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Health data analytics and reporting"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Data backup and recovery processes"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "User authentication and login"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Patient feedback and survey collection"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Telemedicine session management"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Data sharing with third-party providers"}
+{"attributes": ["Name", "Date of Birth", "Identity", "Medical Record"], "task": "Audit trail and activity monitoring"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "User registration form handling"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Login authentication process"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Password reset functionality"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Two-factor authentication setup"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Biometric data enrollment"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "User profile update"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Password change feature"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Account recovery process"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Multi-factor authentication verification"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Session management and tracking"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "API key generation and management"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "OAuth token exchange"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Single sign-on (SSO) integration"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Access control and permission management"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Audit logging and monitoring"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Secure storage of credentials"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Encryption and decryption of sensitive data"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Captcha verification process"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Security question setup and verification"}
+{"attributes": ["User Name", "Password", "Two-Factor Authentication Code", "Biometric Data"], "task": "Identity verification and validation process"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "User profile creation"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Personalized content recommendation"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Search query logging"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "User preference storage"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Personalized advertising targeting"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "User behavior tracking"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Social media integration"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Location-based service customization"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Purchase history analysis"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "User feedback collection"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Subscription management"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Personalized email marketing"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "User activity logging"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Multi-device synchronization"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "User segmentation and profiling"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "A/B testing for user experience"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Personalized push notifications"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "User account recovery"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Cross-platform user identification"}
+{"attributes": ["User Name", "User Preferences", "Search History"], "task": "Personalized user interface customization"}
+{"attributes": ["Location", "IP address"], "task": "Geolocation tracking for user activity logs"}
+{"attributes": ["Location", "IP address"], "task": "Real-time location sharing in social media apps"}
+{"attributes": ["Location", "IP address"], "task": "Location-based advertising targeting"}
+{"attributes": ["Location", "IP address"], "task": "GPS navigation and route optimization"}
+{"attributes": ["Location", "IP address"], "task": "Location-based weather updates"}
+{"attributes": ["Location", "IP address"], "task": "Proximity-based friend or contact suggestions"}
+{"attributes": ["Location", "IP address"], "task": "Location-based event recommendations"}
+{"attributes": ["Location", "IP address"], "task": "Geofencing for personalized notifications"}
+{"attributes": ["Location", "IP address"], "task": "Location history analysis for user behavior"}
+{"attributes": ["Location", "IP address"], "task": "Location-based access control for services"}
+{"attributes": ["Location", "IP address"], "task": "IP-based location detection for content delivery"}
+{"attributes": ["Location", "IP address"], "task": "Location-aware emergency services dispatch"}
+{"attributes": ["Location", "IP address"], "task": "Location-based ride-sharing services"}
+{"attributes": ["Location", "IP address"], "task": "Location-based public transportation updates"}
+{"attributes": ["Location", "IP address"], "task": "Location-based restaurant or venue recommendations"}
+{"attributes": ["Location", "IP address"], "task": "Location-based fitness tracking and analysis"}
+{"attributes": ["Location", "IP address"], "task": "Location-based dating or matchmaking services"}
+{"attributes": ["Location", "IP address"], "task": "Location-based augmented reality experiences"}
+{"attributes": ["Location", "IP address"], "task": "Location-based gaming features"}
+{"attributes": ["Location", "IP address"], "task": "Location-based check-in services for loyalty programs"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "User authentication and login process"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Payment processing and transaction handling"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Account balance retrieval"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Bank statement generation and export"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Credit card validation and storage"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "API key management and distribution"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Database connection setup and configuration"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Transaction history logging and auditing"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "User profile management and updates"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Financial report generation"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Data encryption and decryption routines"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Secure data transmission over networks"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Fraud detection and monitoring systems"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Third-party service integration"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "User consent and privacy policy management"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Access control and permission settings"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Backup and recovery of sensitive data"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Error logging and exception handling"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Data anonymization and pseudonymization"}
+{"attributes": ["Bank Statement", "Credit Card Number", "API Key", "Database Connection Strings"], "task": "Secure session management and timeout settings"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Automated deployment scripts"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Configuration file generation"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Infrastructure as Code (IaC) templates"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Continuous Integration/Continuous Deployment (CI/CD) pipeline configuration"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Environment variable management"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Secrets management setup"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "API gateway configuration"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Cloud resource provisioning scripts"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Container orchestration configuration"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Network configuration automation"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Access control policy definition"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Logging and monitoring setup"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Backup and recovery script generation"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Load balancer configuration"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Firewall rule automation"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Database configuration management"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Version control system hooks"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Service discovery configuration"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Identity and access management (IAM) policy setup"}
+{"attributes": ["System Configuration", "API key", "SSH Key"], "task": "Remote server configuration scripts"}

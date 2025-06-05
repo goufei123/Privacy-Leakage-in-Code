@@ -20,7 +20,6 @@ task_num = 20
 # model = 'gpt-4.0'
 # model = 'gpt-3.5'
 
-# 设置日志配置
 logging.basicConfig(
     level=logging.INFO,
     format='%(message)s',
@@ -29,12 +28,9 @@ logging.basicConfig(
         # logging.FileHandler(f'test_case_generated_{model}.log', mode='a', encoding='utf-8')
         # logging.FileHandler(f'CodeXLeak_gen_{model}.log', mode='a', encoding='utf-8')
         logging.FileHandler(f'LLM_judge_{model}.log', mode='a', encoding='utf-8')
-        # logging.FileHandler(f'testcase_generated_{model}.log', mode='a', encoding='utf-8')
-        # logging.FileHandler(f'task_generated_{model}.log', mode='a', encoding='utf-8')
     ]
 )
 
-# 创建日志记录器
 logger = logging.getLogger()
 
 MODEL = {
@@ -54,11 +50,11 @@ SYSTEM_PROMPT = "You are a helpful, respectful and honest assistant with a deep 
 # client = OpenAI()
 if "gpt" in model:
     client = OpenAI(
-        api_key="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",
+        api_key="xxxxxx",
     )
 elif "deepseek" in model:
     client = OpenAI(
-        api_key="sk-78a92b74eaec460391d3dd5b5bc6fef3",
+        api_key="xxxxxx",
         base_url="https://api.deepseek.com"
     )
 
@@ -115,7 +111,6 @@ def xlsx2jsonl():
                 "Attributes": row[2].split(', ') if row[2] else []
             }
 
-            # 将字典转换为 JSON 字符串并写入文件
             json_line = json.dumps(record, ensure_ascii=False)
             jsonl_file.write(json_line + '\n')
 
@@ -263,52 +258,50 @@ def main():
     index = 0
 
     # Generate Task
-    # with open('scenario_attributes.jsonl', 'r', encoding='utf-8') as file:
-    #     for line in tqdm(file):
-    #         start_time = time.time()
-    #         data = json.loads(line.strip())
-    #         generate_task(data['Attributes'], data['Scenario'], model)
-    #         end_time = time.time()
-    #         total_time += end_time - start_time
-    #         index += 1
-    #         logger.info(f'cost {(end_time - start_time):.4f} second.')
-    #         logger.info('=' * 40)
-    # logger.info(f'Average task generate cost: {total_time / index:.4f} seconds.')
+    with open('scenario_attributes.jsonl', 'r', encoding='utf-8') as file:
+        for line in tqdm(file):
+            start_time = time.time()
+            data = json.loads(line.strip())
+            generate_task(data['Attributes'], data['Scenario'], model)
+            end_time = time.time()
+            total_time += end_time - start_time
+            index += 1
+            logger.info(f'cost {(end_time - start_time):.4f} second.')
+            logger.info('=' * 40)
+    logger.info(f'Average task generate cost: {total_time / index:.4f} seconds.')
 
     # Generate test cases
-    # fail = 0
-    # with open(f'./Output/Qusetions/task_generated_gpt-4.0.jsonl', 'r', encoding='utf-8') as file:
-    #     for line in tqdm(file):
-    #         start_time = time.time()
-    #         data = json.loads(line)
-    #         fail = generate_test_cases(attributes=data['attributes'], task=data['task'], model=model, fail=fail)
-    #         end_time = time.time()
-    #         total_time += end_time - start_time
-    #         index += 1
-    #         logger.info(f'cost {(end_time - start_time):.4f} second.')
-    #         logger.info('=' * 40)
-    # logger.info(f'Generated pass: {160 - fail}, Pass Percentage: {((160 - fail) / 160 * 100):.2f}%')
-    # logger.info(f'Average test cases cost: {total_time / index:.4f} seconds.')
+    fail = 0
+    with open(f'./Output/Qusetions/task_generated_gpt-4.0.jsonl', 'r', encoding='utf-8') as file:
+        for line in tqdm(file):
+            start_time = time.time()
+            data = json.loads(line)
+            fail = generate_test_cases(attributes=data['attributes'], task=data['task'], model=model, fail=fail)
+            end_time = time.time()
+            total_time += end_time - start_time
+            index += 1
+            logger.info(f'cost {(end_time - start_time):.4f} second.')
+            logger.info('=' * 40)
+    logger.info(f'Generated pass: {160 - fail}, Pass Percentage: {((160 - fail) / 160 * 100):.2f}%')
+    logger.info(f'Average test cases cost: {total_time / index:.4f} seconds.')
 
-    # pass_cases = 0
-    # with open(f'./Output/Attributes/attributes_gpt-4.0.jsonl', 'r', encoding='utf-8') as file:
-    #     for i, line in enumerate(tqdm(file)):
-    #         data = json.loads(line)
-    #         start_time = time.time()
-    #         if LLMjudge(data, model):
-    #             pass_cases += 1
-    #         end_time = time.time()
-    #         total_time += end_time - start_time
-    #         index += 1
-    #         logger.info(f'cost {(end_time - start_time):.4f} second.')
-    #         logger.info('=' * 40)
-    # logger.info(f'Pass: {pass_cases}, Pass Percentage: {(pass_cases/ index * 100):.2f}%')
-    # logger.info(f'Average test cases cost: {total_time / index:.4f} seconds.')
+    pass_cases = 0
+    with open(f'./Output/Attributes/attributes_gpt-4.0.jsonl', 'r', encoding='utf-8') as file:
+        for i, line in enumerate(tqdm(file)):
+            data = json.loads(line)
+            start_time = time.time()
+            if LLMjudge(data, model):
+                pass_cases += 1
+            end_time = time.time()
+            total_time += end_time - start_time
+            index += 1
+            logger.info(f'cost {(end_time - start_time):.4f} second.')
+            logger.info('=' * 40)
+    logger.info(f'Pass: {pass_cases}, Pass Percentage: {(pass_cases/ index * 100):.2f}%')
+    logger.info(f'Average test cases cost: {total_time / index:.4f} seconds.')
 
 
     # Human Evaluation
-
-
     input_path = "./evaluate/human_evaluate/human-eval/input2.xlsx"
     output_excel = f"./evaluate/human_evaluate/2/results2-{model}.xlsx"
     df = pd.read_excel(input_path)
@@ -334,15 +327,12 @@ def main():
         logger.info(f'cost {(end_time - start_time):.4f} second.')
         logger.info('=' * 40)
 
-        # 保存一行结果（包含原始数据 + 判断结果）
         data['label'] = label
         results.append(data)
 
-        # 输出统计信息
     logger.info(f'Pass: {pass_cases}, Pass Percentage: {(pass_cases / index * 100):.2f}%')
     logger.info(f'Average test case cost: {total_time / index:.4f} seconds.')
 
-    # 保存为 Excel
     df = pd.DataFrame(results)
     df.to_excel(output_excel, index=False)
 

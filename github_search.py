@@ -6,7 +6,6 @@ from tqdm import tqdm
 
 
 def search_github_code(query, headers):
-    # 根据 GitHub API 文档，构造搜索 URL，其中 query 参数需要进行 URL 编码
     base_url = "https://api.github.com/search/code"
     # params = {"q": query}
     url = f"{base_url}?q={query}"

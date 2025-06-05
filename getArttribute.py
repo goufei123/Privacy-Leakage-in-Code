@@ -4,7 +4,6 @@ from fileinput import filename
 from collections import defaultdict
 
 model_name = "gpt-4.1"
-# 输入和输出文件名
 input_filename = f"./Output/Cases/test_case_{model_name}.jsonl"
 output_filename = f"./Output/Attributes/attributes_info_{model_name}.jsonl"
 filename_final = f'./Output/Attributes/attributes_{model_name}.jsonl'
@@ -66,18 +65,15 @@ NORMALIZATION_MAP = {
 }
 
 def normalize_attribute(attr: str) -> str:
-    # 去掉前后空白、以及可能包裹的引号和反引号
     attr_cleaned = attr.strip().replace("`", "").replace('"', '').replace("'", "")
     key = re.sub(r"[_\-]", "", attr_cleaned).lower()
     if key in NORMALIZATION_MAP:
         return NORMALIZATION_MAP[key]
     else:
-        # 默认转换成每个单词首字母大写的格式
         parts = re.split(r"[\s_\-]+", attr_cleaned)
         return " ".join(word.capitalize() for word in parts if word)
 
 def clean_string(s: str) -> str:
-    # 去除前面的 "** "（如果存在）
     prefix = "** "
     if s.startswith(prefix):
         s = s[len(prefix):]
@@ -107,7 +103,7 @@ def main():
             try:
                 data = json.loads(line)
             except json.JSONDecodeError as e:
-                print(f"JSON解析失败: {e}")
+                print(f"JSON False: {e}")
                 continue
 
             testcase_str = data['test_case']
@@ -189,9 +185,8 @@ def get_date(file):
                 if attr and content:
                     attribute_content[attr].add(content)
             except json.JSONDecodeError:
-                continue  # 忽略格式错误的行
+                continue
 
-    # 打印每个 attribute 的唯一 content 数量，从大到小排序
     sorted_attributes = sorted(attribute_content.items(), key=lambda x: len(x[1]), reverse=True)
     for attr, contents in sorted_attributes:
         print(f"{attr}: {len(contents)}")

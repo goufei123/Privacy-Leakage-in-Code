@@ -1,12 +1,3 @@
-# -------------------------------------------
-# 字段说明（字段名 → 含义）
-# -------------------------------------------
-# privacy_attribute     : 属性类别名（如 email, api_key）
-# format_features       : 自然语言描述的信息结构规则
-# realistic_prefix      : 出现在真实代码中的字段名、赋值语句等
-# example_fragments     : 部分片段，模拟用户输入或生成补全前缀
-# realistic_values      : 真实上下文中完整赋值片段，用于 few-shot 提示或训练引导
-# -------------------------------------------
 privacy_feature_library = {
     "Email": {
         "privacy_attribute": "email",
@@ -418,7 +409,7 @@ privacy_feature_library = {
         "APIKEY-"
     ],
     "realistic_values": [
-        "api_key = \"sk-78a92b74eaec460391d3dd5b5bc6fef3\""
+        "api_key = \"sk-78a92b74eaec460391\""
     ]
 },
 
